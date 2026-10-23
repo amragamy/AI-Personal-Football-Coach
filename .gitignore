@@ -1,0 +1,37 @@
+# Dependencies and package-manager caches
+node_modules/
+.pnpm-store/
+
+# Generated build output and local tooling caches
+dist/
+build/
+coverage/
+.vite/
+*.tsbuildinfo
+
+# Environment variables and local secrets
+.env
+.env.*
+!.env.example
+!.env.sample
+secrets/
+.secrets/
+*.secret
+*.secret.*
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+
+# Per-machine configuration and operating-system files
+*.local
+.vscode/*.local.json
+.DS_Store
+Thumbs.db
+
+# Project planning and design references (kept locally, excluded from GitHub)
+*.md
+!/README.md
+!/AGENTS.md
+*.pdf
